@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>BASE</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+        <ul class="nav navbar-nav">
+            <li><a class="navbar-brand" href="{% url 'CBVs_app:list' %}">Schools</a></li>
+            <li><a class="navbar-link" href="{% url 'admin:index' %}">Admin</a></li>
+            <li><a class="" href=""></a></li>
+            <li><a class="" href=""></a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+
+    </div>
+    {% block body_block %}
+    {% endblock %}
+</body>
+</html>
